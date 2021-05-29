@@ -2,13 +2,13 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>io.github.github-brijframework</groupId>
-	<artifactId>github-brijframework-bean</artifactId>
+	<groupId>io.github.brijframework</groupId>
+	<artifactId>brijframework-bean</artifactId>
 	<packaging>jar</packaging>
-	<version>1.1</version>
+	<version>1.0.1</version>
 	
 	<name>${project.groupId}:${project.artifactId}</name>
-	<url>https://github.com/github-brijframework/github-brijframework-bean</url>
+	<url>https://github.com/brijframework/brijframework-bean</url>
 	<description>This is the bean library of brijframework</description>
 
 	<properties>
@@ -26,15 +26,15 @@
 		</dependency>
 		
 		<dependency>
-			<groupId>io.github.github-brijframework</groupId>
-			<artifactId>github-brijframework-boot</artifactId>
-			<version>1.1</version>
+			<groupId>io.github.brijframework</groupId>
+			<artifactId>brijframework-boot</artifactId>
+			<version>1.0.1</version>
 		</dependency>
 
 		<dependency>
-			<groupId>io.github.github-brijframework</groupId>
-			<artifactId>github-brijframework-model</artifactId>
-			<version>1.1</version>
+			<groupId>io.github.brijframework</groupId>
+			<artifactId>brijframework-model</artifactId>
+			<version>1.0.1</version>
 		</dependency>
 		
 	</dependencies>
@@ -51,15 +51,15 @@
 		<developer>
 			<name>Ram Kishor</name>
 			<email>ramkishor0509@gmail.com</email>
-			<organization>com.github.github-brijframework</organization>
-			<organizationUrl>https://github.com/github-brijframework/github-brijframework-bean</organizationUrl>
+			<organization>com.github.brijframework</organization>
+			<organizationUrl>https://github.com/brijframework/brijframework-bean</organizationUrl>
 		</developer>
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/github-brijframework/github-brijframework-bean.git</connection>
-		<developerConnection>scm:git:ssh://github.com:github-brijframework/github-brijframework-bean.git</developerConnection>
-		<url>http://github.com/github-brijframework/github-brijframework-bean</url>
+		<connection>scm:git:git://github.com/brijframework/brijframework-bean.git</connection>
+		<developerConnection>scm:git:ssh://github.com:brijframework/brijframework-bean.git</developerConnection>
+		<url>http://github.com/brijframework/brijframework-bean</url>
 	</scm>
 
 	<profiles>
@@ -75,7 +75,7 @@
 	</profiles>
 
 	<build>
-		<finalName>github-brijframework-bean</finalName>
+		<finalName>brijframework-bean</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
